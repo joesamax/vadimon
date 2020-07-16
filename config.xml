@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "fr.alizesdeveloppement.adapp.gpseeds"
+        versionCode = "10"
+        version     = "1.0.0.0" >
+
+	<name>Gwadaseeds ADcard</name>
+
+	<description>Votre carte virtuelle professionnelle par Alizés Développement</description>
+
+	<author href="" email=""></author>
+
+	<platform name="android" />
+
+	<!-- General preferences -->
+	<preference name="android-targetSdkVersion" value="28" />
+	<preference name="orientation" value="portrait" />
+	<preference name="buildArchitecture" value="arm" />
+	<preference name="android-build-tool" value="gradle" />
+	<preference name="permissions" value="none"/>
+        <preference name="loadUrlTimeoutValue" value="700000" />
+	<preference name="disallowOverscroll" value="true" />
+	<preference name="webviewbounce" value="false" />
+
+	<!-- Custom preferences -->
+
+	<!-- PhoneGap plugin declaration -->
+	<plugin name="cordova-plugin-inappbrowser" source="npm" />
+	<plugin name="cordova-plugin-network-information" source="npm" />
+	<plugin name="cordova-plugin-whitelist" source="npm" />
+	<plugin name="cordova-plugin-splashscreen" source="npm" />
+	<plugin name="cordova-plugin-device" source="npm" />
+	<plugin name="cordova-plugin-statusbar" source="npm" />
+	<plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-build-architecture.git#v1.0.4" source="git" />
+        <content src="https://alizescard.fr/gwadaseeds/" />
+
+	<!-- Whitelist policy  -->
+	<access origin="*" />
+	<allow-intent href="*" />
+	<allow-navigation href="*" />
+
+	<!-- SplashScreen configuration -->
+	<preference name="SplashScreen" value="splash" />
+	<preference name="SplashScreenDelay" value="10000" />
+	<preference name="FadeSplashScreenDuration" value="300" />
+	<preference name="ShowSplashScreenSpinner" value="true" />
+
+	<!-- Icons and Splashscreens declaration -->
+
+	<icon src="icon.png" gap:platform="android" />
+	<icon src="icon.png" gap:platform="android" gap:qualifier="ldpi" />
+	<icon src="icon.png" gap:platform="android" gap:qualifier="mdpi" />
+	<icon src="icon.png" gap:platform="android" gap:qualifier="hdpi" />
+	<icon src="icon.png" gap:platform="android" gap:qualifier="xhdpi" />
+	<icon src="icon.png" gap:platform="android" gap:qualifier="xxhdpi" />
+	<icon src="icon.png" gap:platform="android" gap:qualifier="xxxhdpi" />
+	
+	<gap:splash src="splash.png" gap:platform="android" />
+	<gap:splash src="splash.png" gap:platform="android" gap:qualifier="ldpi" />
+	<gap:splash src="splash.png" gap:platform="android" gap:qualifier="mdpi" />
+	<gap:splash src="splash.png" gap:platform="android" gap:qualifier="hdpi" />
+	<gap:splash src="splash.png" gap:platform="android" gap:qualifier="xhdpi" />
+	<gap:splash src="splash.png" gap:platform="android" gap:qualifier="xxhdpi" />
+	<gap:splash src="splash.png" gap:platform="android" gap:qualifier="xxxhdpi" />
+	
+</widget>
