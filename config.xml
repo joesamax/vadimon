@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns       = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "fr.alizesdeveloppement.adapp.gpseeds"
+        id          = "fr.alizesdeveloppement.adapp.vadimon"
         versionCode = "10"
         version     = "1.0.0.0" >
 
-	<name>Gwadaseeds ADcard</name>
+	<name>Vadimon ADcard</name>
 
 	<description>Votre carte virtuelle professionnelle par Alizés Développement</description>
 
@@ -33,7 +33,7 @@
 	<plugin name="cordova-plugin-device" source="npm" />
 	<plugin name="cordova-plugin-statusbar" source="npm" />
 	<plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-build-architecture.git#v1.0.4" source="git" />
-        <content src="https://alizescard.fr/gwadaseeds/" />
+        <content src="https://alizescard.fr/vadimon/" />
 
 	<!-- Whitelist policy  -->
 	<access origin="*" />
