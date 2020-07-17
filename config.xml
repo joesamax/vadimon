@@ -15,7 +15,7 @@
 
 	<!-- General preferences -->
 	<preference name="android-targetSdkVersion" value="28" />
-	 <preference name="phonegap-version" value="cli-6.5.0" />
+	<preference name="phonegap-version" value="cli-6.5.0" />
 	<preference name="orientation" value="portrait" />
 	<preference name="buildArchitecture" value="arm" />
 	<preference name="android-build-tool" value="gradle" />
@@ -23,7 +23,7 @@
         <preference name="loadUrlTimeoutValue" value="700000" />
 	<preference name="disallowOverscroll" value="true" />
 	<preference name="webviewbounce" value="false" />
-	 <preference name="android-build-tool" value="ant|gradle" />
+	<preference name="android-build-tool" value="gradle" />
 	<!-- Custom preferences -->
 
 	<!-- PhoneGap plugin declaration -->
@@ -53,6 +53,12 @@
 	
 	
 	<gap:splash src="splash.png" gap:platform="android" />
+	<gap:splash src="splash.png" gap:platform="android" gap:qualifier="ldpi" />
+	<gap:splash src="splash.png" gap:platform="android" gap:qualifier="mdpi" />
+	<gap:splash src="splash.png" gap:platform="android" gap:qualifier="hdpi" />
+	<gap:splash src="splash.png" gap:platform="android" gap:qualifier="xhdpi" />
+	<gap:splash src="splash.png" gap:platform="android" gap:qualifier="xxhdpi" />
+	<gap:splash src="splash.png" gap:platform="android" gap:qualifier="xxxhdpi" />
 	
 	
 </widget>
