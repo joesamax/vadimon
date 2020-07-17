@@ -53,12 +53,7 @@
 	
 	
 	<gap:splash src="splash.png" gap:platform="android" />
-	<gap:splash src="splash.png" gap:platform="android" gap:qualifier="ldpi" />
-	<gap:splash src="splash.png" gap:platform="android" gap:qualifier="mdpi" />
-	<gap:splash src="splash.png" gap:platform="android" gap:qualifier="hdpi" />
-	<gap:splash src="splash.png" gap:platform="android" gap:qualifier="xhdpi" />
-	<gap:splash src="splash.png" gap:platform="android" gap:qualifier="xxhdpi" />
-	<gap:splash src="splash.png" gap:platform="android" gap:qualifier="xxxhdpi" />
+	
 	
 	
 </widget>
